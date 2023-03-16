@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 6vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.btn-register {
+  opacity: 100;
+  background-color: #329232;
+}
+
+.btn-entrar {
+  background-color: #ffa74e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: red;
+}
+
+.prueba-nav {
+  color: white;
+}
